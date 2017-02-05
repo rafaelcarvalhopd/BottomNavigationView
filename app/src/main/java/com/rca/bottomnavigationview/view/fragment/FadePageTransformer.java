@@ -4,9 +4,6 @@ import android.support.v4.view.ViewPager;
 import android.view.MotionEvent;
 import android.view.View;
 
-/**
- * Created by home on 03/02/17.
- */
 public class FadePageTransformer implements ViewPager.PageTransformer {
 
     public FadePageTransformer(ViewPager viewPager) {

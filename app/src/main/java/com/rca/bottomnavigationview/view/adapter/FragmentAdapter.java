@@ -9,10 +9,6 @@ import com.rca.bottomnavigationview.model.FragmentItem;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by home on 03/02/17.
- */
-
 public class FragmentAdapter extends FragmentPagerAdapter {
 
     private List<FragmentItem> fragmentItemList;
@@ -42,9 +38,9 @@ public class FragmentAdapter extends FragmentPagerAdapter {
 
         int index = 0;
 
-        for(FragmentItem item : fragmentItemList) {
+        for (FragmentItem item : fragmentItemList) {
 
-            if(item.getIdMenuItem() == idMenuItem) {
+            if (item.getIdMenuItem() == idMenuItem) {
 
                 break;
             }

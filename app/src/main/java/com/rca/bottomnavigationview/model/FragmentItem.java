@@ -2,9 +2,6 @@ package com.rca.bottomnavigationview.model;
 
 import android.support.v4.app.Fragment;
 
-/**
- * Created by home on 03/02/17.
- */
 public class FragmentItem {
 
     private String title;
