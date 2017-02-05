@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import com.rca.bottomnavigationview.R;
 
-public class FiveFragment extends Fragment {
+public class FifthFragment extends Fragment {
 
     private TextView tvMessage;
     private View view;

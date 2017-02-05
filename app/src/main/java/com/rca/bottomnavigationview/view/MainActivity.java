@@ -11,7 +11,7 @@ import com.rca.bottomnavigationview.R;
 import com.rca.bottomnavigationview.view.adapter.FragmentAdapter;
 import com.rca.bottomnavigationview.view.fragment.FadePageTransformer;
 import com.rca.bottomnavigationview.view.fragment.FirstFragment;
-import com.rca.bottomnavigationview.view.fragment.FiveFragment;
+import com.rca.bottomnavigationview.view.fragment.FifthFragment;
 import com.rca.bottomnavigationview.view.fragment.FourthFragment;
 import com.rca.bottomnavigationview.view.fragment.SecondFragment;
 import com.rca.bottomnavigationview.view.fragment.ThirdFragment;
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new SecondFragment(), "Second Fragment", R.id.action_schedules);
         adapter.addFragment(new ThirdFragment(), "Third Fragment", R.id.action_music);
         adapter.addFragment(new FourthFragment(), "Fourth Fragment", R.id.action_music2);
-        adapter.addFragment(new FiveFragment(), "Five Fragment", R.id.action_music3);
+        adapter.addFragment(new FifthFragment(), "Fifth Fragment", R.id.action_music3);
 
         viewPager.setAdapter(adapter);
         viewPager.setOffscreenPageLimit(1);
