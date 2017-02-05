@@ -20,9 +20,9 @@ public class FifthFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        view = inflater.inflate(R.layout.fragment_five, null, false);
+        view = inflater.inflate(R.layout.fragment_fifth, null, false);
 
-        Log.d("Fragment", "Five - saved: " + (savedInstanceState != null));
+        Log.d("Fragment", "Fifth - saved: " + (savedInstanceState != null));
 
         return view;
     }
