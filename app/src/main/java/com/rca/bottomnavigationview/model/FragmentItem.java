@@ -1,0 +1,44 @@
+package com.rca.bottomnavigationview.model;
+
+import android.support.v4.app.Fragment;
+
+/**
+ * Created by home on 03/02/17.
+ */
+public class FragmentItem {
+
+    private String title;
+    private int idMenuItem;
+    private Fragment fragment;
+
+    public FragmentItem(Fragment fragment, String title, int idMenuItem) {
+
+        this.fragment = fragment;
+        this.title = title;
+        this.idMenuItem = idMenuItem;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public Fragment getFragment() {
+        return fragment;
+    }
+
+    public void setFragment(Fragment fragment) {
+        this.fragment = fragment;
+    }
+
+    public int getIdMenuItem() {
+        return idMenuItem;
+    }
+
+    public void setIdMenuItem(int idMenuItem) {
+        this.idMenuItem = idMenuItem;
+    }
+}
